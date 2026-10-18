@@ -1,7 +1,8 @@
 /* מפת הזיכרונות — אתר סטטי: trip.json (המסלול והמקומות) + album.json (התמונות והמילים)
    היחידה שמציגים היא *יום*: כרטיס אחד עם כל התמונות וכל המילים של אותו יום, מכל המקומות. */
 (async function () {
-  const [trip, album] = await Promise.all([fetch("trip.json").then((r) => r.json()), fetch("album.json").then((r) => r.json())]);
+  const V = (document.querySelector('script[src*="app.js"]')?.src.split("v=")[1]) || "0"; // גרסה: שלא יוצג JSON ישן מהמטמון
+  const [trip, album] = await Promise.all([fetch("trip.json?v=" + V).then((r) => r.json()), fetch("album.json?v=" + V).then((r) => r.json())]);
   const SOLO_START = "2026-10-12";
   const he = (d) => new Intl.DateTimeFormat("he-IL", { weekday: "long", day: "numeric", month: "long", timeZone: "UTC" }).format(new Date(d + "T12:00:00Z"));
   const dayLabel = (d) => (d.date >= SOLO_START ? `לבד בניו יורק · יום ${+d.date.slice(8) - 11}` : `יום ${d.dayNo}`);
