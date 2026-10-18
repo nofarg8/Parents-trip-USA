@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>מפת הזיכרונות — איתי וענת בארה"ב</title>
+<meta name="description" content="אלבום דיגיטלי על מפה: 26 ימים מסן דייגו עד ניו יורק, ספטמבר–אוקטובר 2026">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;800&family=Secular+One&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <div class="brand">
+    <div class="brand-title">מפת הזיכרונות</div>
+    <div class="brand-sub">איתי וענת · מהחוף המערבי למזרחי · 22.9–18.10.2026</div>
+  </div>
+  <div class="top-actions">
+    <span class="stat" id="stat"></span>
+    <button class="btn primary" id="tourBtn">▶ סיור במפה</button>
+    <button class="btn ghost" id="daysBtn" aria-label="רשימת הימים">📅 הימים</button>
+  </div>
+</header>
+
+<main class="layout">
+  <aside class="days" id="days" aria-label="ימי הטיול"></aside>
+  <div id="map" role="application" aria-label="מפה"></div>
+  <section class="card hidden" id="card" aria-live="polite">
+    <button class="card-close" id="cardClose" aria-label="סגירה">✕</button>
+    <div class="card-day" id="cardDay"></div>
+    <h2 class="card-title" id="cardTitle"></h2>
+    <div class="card-sub" id="cardSub"></div>
+    <div class="gallery" id="gallery"></div>
+    <div class="texts" id="texts"></div>
+    <div class="card-nav">
+      <button class="btn ghost" id="prevBtn">‹ הקודם</button>
+      <button class="btn ghost" id="nextBtn">הבא ›</button>
+    </div>
+  </section>
+</main>
+
+<div class="tourbar hidden" id="tourbar">
+  <button class="btn ghost" id="tourPrev">‹</button>
+  <button class="btn primary" id="tourPause">⏸ השהיה</button>
+  <button class="btn ghost" id="tourNext">›</button>
+  <span class="tour-pos" id="tourPos"></span>
+  <button class="btn ghost" id="tourStop">✕ יציאה</button>
+</div>
+
+<div class="lightbox hidden" id="lightbox" role="dialog" aria-modal="true">
+  <button class="lb-close" id="lbClose" aria-label="סגירה">✕</button>
+  <button class="lb-arrow lb-prev" id="lbPrev" aria-label="הקודמת">‹</button>
+  <img id="lbImg" alt="">
+  <button class="lb-arrow lb-next" id="lbNext" aria-label="הבאה">›</button>
+  <div class="lb-cap" id="lbCap"></div>
+</div>
+
+<script src="app.js?v=2"></script>
+</body>
+</html>
