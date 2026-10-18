@@ -62,7 +62,8 @@ button { font: inherit; cursor: pointer; }
 .gallery { display: flex; gap: 8px; overflow-x: auto; padding-bottom: 6px; scroll-snap-type: x mandatory; }
 .gallery img { height: 150px; width: auto; border-radius: 10px; scroll-snap-align: start; cursor: zoom-in; flex: 0 0 auto; background: var(--bg); }
 .gallery .more { flex: 0 0 auto; height: 150px; width: 100px; border-radius: 10px; display: grid; place-items: center; background: var(--bg); color: var(--navy); font-weight: 800; cursor: pointer; }
-.texts p { margin: 12px 0 0; font-size: 16.5px; white-space: pre-line; }
+.texts .site-h { margin: 14px 0 0; font-size: 13px; font-weight: 700; color: var(--red); }
+.texts p { margin: 4px 0 0; font-size: 16.5px; white-space: pre-line; }
 .texts .by { color: var(--muted); font-size: 12.5px; margin-top: 2px; }
 .card-nav { display: flex; justify-content: space-between; margin-top: 14px; }
 
