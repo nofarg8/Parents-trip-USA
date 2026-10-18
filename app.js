@@ -1,4 +1,4 @@
-/* מפת הזיכרונות — אתר סטטי: trip.json (המסלול והמקומות) + album.json (התמונות והמילים)
+/* מפת הזיכרונות - אתר סטטי: trip.json (המסלול והמקומות) + album.json (התמונות והמילים)
    היחידה שמציגים היא *יום*: כרטיס אחד עם כל התמונות וכל המילים של אותו יום, מכל המקומות. */
 (async function () {
   const V = (document.querySelector('script[src*="app.js"]')?.src.split("v=")[1]) || "0"; // גרסה: שלא יוצג JSON ישן מהמטמון
@@ -7,7 +7,7 @@
   const he = (d) => new Intl.DateTimeFormat("he-IL", { weekday: "long", day: "numeric", month: "long", timeZone: "UTC" }).format(new Date(d + "T12:00:00Z"));
   const dayLabel = (d) => (d.date >= SOLO_START ? `לבד בניו יורק · יום ${+d.date.slice(8) - 11}` : `יום ${d.dayNo}`);
 
-  // ---- data: לכל יום — התחנות (מקומות עם זיכרון), כל התמונות וכל המילים
+  // ---- data: לכל יום - התחנות (מקומות עם זיכרון), כל התמונות וכל המילים
   const memsByKey = {};
   album.memories.forEach((m) => { (memsByKey[m.date + "|" + m.siteId] ||= []).push(m); });
   const days = trip.days.map((d) => {
@@ -62,7 +62,7 @@
     d.photos.slice(0, SHOW).forEach((p, k) => { const im = new Image(); im.src = p; im.loading = "lazy"; im.alt = d.title; im.onclick = () => lb(k); g.appendChild(im); });
     if (d.photos.length > SHOW) { const more = document.createElement("div"); more.className = "more"; more.textContent = `+${d.photos.length - SHOW}`; more.onclick = () => lb(SHOW); g.appendChild(more); }
     const t = document.getElementById("texts"); t.innerHTML = "";
-    d.texts.forEach((x) => { const h = document.createElement("div"); h.className = "site-h"; h.textContent = "📍 " + x.site; const p = document.createElement("p"); p.textContent = x.text; const by = document.createElement("div"); by.className = "by"; by.textContent = "— " + (x.author === "הממליץ המקומי" ? "מהתמונות" : x.author); t.append(h, p, by); });
+    d.texts.forEach((x) => { const h = document.createElement("div"); h.className = "site-h"; h.textContent = "📍 " + x.site; const p = document.createElement("p"); p.textContent = x.text; const by = document.createElement("div"); by.className = "by"; by.textContent = "- " + (x.author === "הממליץ המקומי" ? "מהתמונות" : x.author); t.append(h, p, by); });
     card.classList.remove("hidden"); card.scrollTop = 0;
     if (flyTo) map.flyTo(flyTo, Math.max(map.getZoom(), 11), { duration: 1.2 });
     else map.flyToBounds(L.latLngBounds(d.stops.map((st) => [st.site.lat, st.site.lng])), { padding: [60, 60], maxZoom: 12, duration: 1.2 });
