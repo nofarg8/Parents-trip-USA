@@ -62,7 +62,7 @@
     d.photos.slice(0, SHOW).forEach((p, k) => { const im = new Image(); im.src = p; im.loading = "lazy"; im.alt = d.title; im.onclick = () => lb(k); g.appendChild(im); });
     if (d.photos.length > SHOW) { const more = document.createElement("div"); more.className = "more"; more.textContent = `+${d.photos.length - SHOW}`; more.onclick = () => lb(SHOW); g.appendChild(more); }
     const t = document.getElementById("texts"); t.innerHTML = "";
-    d.texts.forEach((x) => { const h = document.createElement("div"); h.className = "site-h"; h.textContent = "📍 " + x.site; const p = document.createElement("p"); p.textContent = x.text; const by = document.createElement("div"); by.className = "by"; by.textContent = "- " + (x.author === "הממליץ המקומי" ? "מהתמונות" : x.author); t.append(h, p, by); });
+    d.texts.forEach((x) => { const h = document.createElement("div"); h.className = "site-h"; h.textContent = "📍 " + x.site; const p = document.createElement("p"); p.textContent = x.text; t.append(h, p); });
     card.classList.remove("hidden"); card.scrollTop = 0;
     if (flyTo) map.flyTo(flyTo, Math.max(map.getZoom(), 11), { duration: 1.2 });
     else map.flyToBounds(L.latLngBounds(d.stops.map((st) => [st.site.lat, st.site.lng])), { padding: [60, 60], maxZoom: 12, duration: 1.2 });
