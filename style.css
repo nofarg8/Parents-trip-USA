@@ -86,4 +86,6 @@ button { font: inherit; cursor: pointer; }
   .card { inset-inline-start: 0; width: 100%; bottom: 0; border-radius: var(--radius) var(--radius) 0 0; max-height: 62vh; padding: 14px 16px 12px; }
   .gallery img, .gallery .more { height: 120px; }
   .tourbar { bottom: auto; top: 74px; }
+  .leaflet-control-zoom { display: none; } /* בטלפון מצביטים; הכפתורים הסתירו את הכרטיס */
+  .leaflet-control-attribution { font-size: 9px; }
 }
