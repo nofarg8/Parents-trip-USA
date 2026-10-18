@@ -1,42 +1,42 @@
 {
  "generatedAt": null,
  "visited": [
-  "ny-bowbridge",
-  "ny-liberty",
-  "ny-moma",
-  "ny-washsq",
-  "ca-carmel",
-  "la-dolby",
-  "la-rodeo",
   "ny-littleitaly",
-  "ny-oneworld",
+  "sf-ggb",
+  "az-grandcanyon",
+  "ny-washsq",
+  "dc-capitol",
+  "ut-zion",
+  "yo-falls",
+  "yo-tunnel",
+  "ny-bowbridge",
+  "ny-moma",
+  "ny-nyse",
+  "ny-topofrock",
+  "pa-amish",
   "bos-holocaust",
+  "fl-seneca",
+  "ny-bethesda",
+  "lv-barstow",
+  "lv-hoover",
+  "ny-oneworld",
+  "sd-cabrillo",
   "bos-statehouse",
   "ca-malibu",
-  "ny-nyse",
-  "yo-falls",
-  "lv-barstow",
-  "ng-horseshoe",
-  "ph-indhall",
-  "sf-ggb",
-  "la-universal",
-  "ny-highline",
-  "pa-amish",
-  "ut-zion",
-  "az-glen",
-  "ny-empire",
-  "sd-cabrillo",
-  "az-grandcanyon",
-  "fl-seneca",
-  "lv-hoover",
-  "ny-topofrock",
-  "on-1000",
-  "dc-capitol",
-  "mtl-royal",
-  "ny-bethesda",
-  "yo-tunnel",
   "la-smpier",
-  "lv-mead"
+  "mtl-royal",
+  "ny-empire",
+  "ny-highline",
+  "ny-liberty",
+  "on-1000",
+  "az-glen",
+  "la-dolby",
+  "la-rodeo",
+  "ph-indhall",
+  "lv-mead",
+  "ca-carmel",
+  "la-universal",
+  "ng-horseshoe"
  ],
  "memories": [
   {
@@ -95,7 +95,8 @@
     "photos/2026-09-22/sd-cabrillo-gksc4y-44.jpg",
     "photos/2026-09-22/sd-cabrillo-gksc4y-45.jpg",
     "photos/2026-09-22/sd-cabrillo-gksc4y-46.jpg"
-   ]
+   ],
+   "lead": []
   },
   {
    "id": "mug2ol7g-idl49a",
@@ -106,7 +107,8 @@
    "createdAt": "2026-09-24T21:57:25.468Z",
    "aiDraft": true,
    "originalText": "הגענו מישראל לאארץ האפשרויות הבלתי מוגבלות . אמריקה . חלום שהתממש.\r\nצמיד הנחיתה התחלנו הטיול , נסענו לסאן דייגו לחוף האוקיינוס שם ראינו אריות ים, מראה מרהיב וכל כך מקרוב. משם עלינו לגשר ארוך, עצום וגבוה למד השני של סאן דייגו, ראינו נושאת מטוסים שהיא המוזאון וטיילנו בטיילת שם וראינו צילומים ופסלים היסטוריים, משם נסענו לאחד המפרצים ועלינו על המזח",
-   "local": []
+   "local": [],
+   "lead": []
   },
   {
    "id": "mug32ffr-tivpqp",
@@ -117,7 +119,8 @@
    "createdAt": "2026-09-24T22:08:11.175Z",
    "aiDraft": false,
    "originalText": "ישנו במלון הולידיי אין אקספרס",
-   "local": []
+   "local": [],
+   "lead": []
   },
   {
    "id": "mug1uwuc-9tbge4",
@@ -190,6 +193,9 @@
     "photos/2026-09-23/la-dolby-9tbge4-59.jpg",
     "photos/2026-09-23/la-dolby-9tbge4-60.jpg",
     "photos/2026-09-23/la-dolby-9tbge4-61.jpg"
+   ],
+   "lead": [
+    "photos/2026-09-23/00-lead-9tbge4.jpg"
    ]
   },
   {
@@ -201,7 +207,8 @@
    "createdAt": "2026-09-24T22:05:48.256Z",
    "aiDraft": true,
    "originalText": "היום השני לטיול, נסענו ללוס אנג'לס, ראינו מגרש של הלייקרס, משם נסענו לראות עושר אמיתי מהו ולהיזכר בסידרה בברלי הילס   90210, מירב החנויות היוקרתית  נמצאות שם ברודיאו דרייב וראינו את  המלון של הסרט אישה יפה  ומאיפה אסף ריצרד גיר את ג'וליה רוברטס\r\nמשם הלכנו לדבוק באבק הכוכבים וצעדנו על כוכבי השחקנים הגדולים ועלינו במדרגות  בדיוק כמוהם על מנת לקבל את האוסקר, האוסקר שלנו זה מפעל חיינו המשפחה , הבית והילדים שלנו\r\nמשם הלכנו למקום מרהיב המזח של סנטה מוניקה, ים ענק , מדהים, נגענו וחזרנו ללון במלון סונסטה שם נשהה יומיים",
-   "local": []
+   "local": [],
+   "lead": []
   },
   {
    "id": "mug25xgo-mrt9ir",
@@ -267,7 +274,8 @@
     "photos/2026-09-24/la-universal-mrt9ir-52.jpg",
     "photos/2026-09-24/la-universal-mrt9ir-53.jpg",
     "photos/2026-09-24/la-universal-mrt9ir-54.jpg"
-   ]
+   ],
+   "lead": []
   },
   {
    "id": "mug2f7ww-m586f5",
@@ -278,7 +286,8 @@
    "createdAt": "2026-09-24T21:50:08.336Z",
    "aiDraft": true,
    "originalText": "וואוו של יום אגדה . ביקרנו ביוניברסל , מקום מדהים ענק, כל הסרטים , התעלולים הכי הכי פה. חווינו שייט בפארק היורה,\r\nנסיעה בכל רחבי הפארק יוניברסל עם המחשות פיסיות על הגוף, צפינו בהצגה וראינו את עולם הפעלולים .\r\nאמרנו שלום להארי פוטר.\r\nולכל יוצרי הקולנוע, מלתעות  שהיה סרט איקוני מקבל פה משמעות שונה\r\nמהיוניברסל נוסעים לתצפית מדהימה על כל האיזור\r\nתודה על יום מהסרטים",
-   "local": []
+   "local": [],
+   "lead": []
   },
   {
    "id": "muhwetel-rx69oa",
@@ -326,7 +335,8 @@
     "photos/2026-09-25/ca-malibu-rx69oa-34.jpg",
     "photos/2026-09-25/ca-malibu-rx69oa-35.jpg",
     "photos/2026-09-25/ca-malibu-rx69oa-36.jpg"
-   ]
+   ],
+   "lead": []
   },
   {
    "id": "muijix0b-8q0b79",
@@ -337,7 +347,8 @@
    "createdAt": "2026-09-26T15:24:26.651Z",
    "aiDraft": true,
    "originalText": "עזבנו את לוס אנג'לס לכיוון צפון \r\nעצרנו בסנטה ברברה טיילנו על המזח \r\nלאחר מיכן נסענו לסאן לואיס אובפיגו לבניין בית המשפט שם במקרה פגשנו זוג יהודים שהתחתנו \r\nלאחר מיכן נסענו לסלוונג עיירה ציורית שנראתה כמו העיירות בדנמרק \r\nולבסוף נסענו למלון בסלינס \r\n\r\nלא היינו במאליבו כי הרוב נשרף השרפה של ינואר 2025",
-   "local": []
+   "local": [],
+   "lead": []
   },
   {
    "id": "mujvakk6-givdxv",
@@ -427,6 +438,9 @@
     "photos/2026-09-26/ca-carmel-givdxv-75.jpg",
     "photos/2026-09-26/ca-carmel-givdxv-76.jpg",
     "photos/2026-09-26/ca-carmel-givdxv-77.jpg"
+   ],
+   "lead": [
+    "photos/2026-09-26/00-lead-givdxv.jpg"
    ]
   },
   {
@@ -481,6 +495,9 @@
     "photos/2026-09-27/sf-ggb-pn2mao-40.jpg",
     "photos/2026-09-27/sf-ggb-pn2mao-41.jpg",
     "photos/2026-09-27/sf-ggb-pn2mao-42.jpg"
+   ],
+   "lead": [
+    "photos/2026-09-27/00-lead-pn2mao.jpg"
    ]
   },
   {
@@ -563,6 +580,9 @@
     "photos/2026-09-28/yo-tunnel-jwkl54-68.jpg",
     "photos/2026-09-28/yo-tunnel-jwkl54-69.jpg",
     "photos/2026-09-28/yo-tunnel-jwkl54-70.jpg"
+   ],
+   "lead": [
+    "photos/2026-09-28/00-lead-jwkl54.jpg"
    ]
   },
   {
@@ -574,7 +594,8 @@
    "createdAt": "2026-09-29T13:42:36.746Z",
    "aiDraft": true,
    "originalText": "פארק יוסמיטי המרהיב \r\nולבסוף היום לטולאר למלון",
-   "local": []
+   "local": [],
+   "lead": []
   },
   {
    "id": "mumt6ccq-gcvr5k",
@@ -591,7 +612,8 @@
     "photos/2026-09-28/yo-tunnel-gcvr5k-03.jpg",
     "photos/2026-09-28/yo-tunnel-gcvr5k-04.jpg",
     "photos/2026-09-28/yo-tunnel-gcvr5k-05.jpg"
-   ]
+   ],
+   "lead": []
   },
   {
    "id": "muno5hth-bk3d04",
@@ -622,7 +644,8 @@
     "photos/2026-09-29/lv-barstow-bk3d04-17.jpg",
     "photos/2026-09-29/lv-barstow-bk3d04-18.jpg",
     "photos/2026-09-29/lv-barstow-bk3d04-19.jpg"
-   ]
+   ],
+   "lead": []
   },
   {
    "id": "mupp43jc-csa2i4",
@@ -714,6 +737,9 @@
     "photos/2026-09-30/lv-hoover-csa2i4-78.jpg",
     "photos/2026-09-30/lv-hoover-csa2i4-79.jpg",
     "photos/2026-09-30/lv-hoover-csa2i4-80.jpg"
+   ],
+   "lead": [
+    "photos/2026-09-30/00-lead-csa2i4.jpg"
    ]
   },
   {
@@ -725,7 +751,8 @@
    "createdAt": "2026-10-01T16:00:57.073Z",
    "aiDraft": true,
    "originalText": "יצאנו מהמלון לסכר הובר המרשים ולמדנו כיצד בנו אותו וראינו את אבני הגרניט השחורים והמים השופטים \r\nמשם בהנאה רבה נסענו לאאוטלט וניהננו לפנק את עצמנו בכמה פריטים .\r\nבערב יצאנו בהצגה אומנותית מצחיק בmgm ולאחר מיכן סיירנו במלון הכי יפה בעולם בלאג'יו המרהיב אין מילים לתאר את היופי",
-   "local": []
+   "local": [],
+   "lead": []
   },
   {
    "id": "muq7k7w0-f0t7sh",
@@ -741,6 +768,9 @@
     "photos/2026-10-01/ut-zion-f0t7sh-02.jpg",
     "photos/2026-10-01/ut-zion-f0t7sh-03.jpg",
     "photos/2026-10-01/ut-zion-f0t7sh-04.jpg"
+   ],
+   "lead": [
+    "photos/2026-10-01/00-lead-f0t7sh.jpg"
    ]
   },
   {
@@ -798,6 +828,9 @@
     "photos/2026-10-02/az-glen-wtlzbr-44.jpg",
     "photos/2026-10-02/az-glen-wtlzbr-45.jpg",
     "photos/2026-10-02/az-glen-wtlzbr-46.jpg"
+   ],
+   "lead": [
+    "photos/2026-10-02/00-lead-wtlzbr.jpg"
    ]
   },
   {
@@ -874,7 +907,8 @@
     "photos/2026-10-02/az-grandcanyon-mbu04g-62.jpg",
     "photos/2026-10-02/az-grandcanyon-mbu04g-63.jpg",
     "photos/2026-10-02/az-grandcanyon-mbu04g-64.jpg"
-   ]
+   ],
+   "lead": []
   },
   {
    "id": "mv3xmqt7-sm1jdj",
@@ -884,7 +918,8 @@
    "author": "הממליץ המקומי",
    "createdAt": "2026-10-11T14:42:29.563Z",
    "aiDraft": true,
-   "local": []
+   "local": [],
+   "lead": []
   },
   {
    "id": "muv9rnxy-b8jwrp",
@@ -957,6 +992,9 @@
     "photos/2026-10-04/bos-statehouse-b8jwrp-59.jpg",
     "photos/2026-10-04/bos-statehouse-b8jwrp-60.jpg",
     "photos/2026-10-04/bos-statehouse-b8jwrp-61.jpg"
+   ],
+   "lead": [
+    "photos/2026-10-04/00-lead-b8jwrp.jpg"
    ]
   },
   {
@@ -968,7 +1006,8 @@
    "createdAt": "2026-10-05T15:23:25.401Z",
    "aiDraft": true,
    "originalText": "לאחר שהגענו למלון ב02:30\r\nקמנו בבוקר לסיור בבוסטון העיר \r\nמבנים יפים והגנים יפים אוניברסיטת האוורד ,אנדרטת השואה",
-   "local": []
+   "local": [],
+   "lead": []
   },
   {
    "id": "mv3xmuop-ww5xpz",
@@ -978,7 +1017,8 @@
    "author": "הממליץ המקומי",
    "createdAt": "2026-10-11T14:42:34.585Z",
    "aiDraft": true,
-   "local": []
+   "local": [],
+   "lead": []
   },
   {
    "id": "mvbjdy8x-vvq5ay",
@@ -999,7 +1039,8 @@
     "photos/2026-10-05/mtl-royal-vvq5ay-07.jpg",
     "photos/2026-10-05/mtl-royal-vvq5ay-08.jpg",
     "photos/2026-10-05/mtl-royal-vvq5ay-09.jpg"
-   ]
+   ],
+   "lead": []
   },
   {
    "id": "muymvrt8-gtwnzk",
@@ -1032,6 +1073,9 @@
     "photos/2026-10-06/on-1000-gtwnzk-19.jpg",
     "photos/2026-10-06/on-1000-gtwnzk-20.jpg",
     "photos/2026-10-06/on-1000-gtwnzk-22.jpg"
+   ],
+   "lead": [
+    "photos/2026-10-06/00-lead-gtwnzk.jpg"
    ]
   },
   {
@@ -1044,7 +1088,8 @@
    "aiDraft": true,
    "local": [
     "photos/2026-10-07/ng-horseshoe-xd07fn-00.jpg"
-   ]
+   ],
+   "lead": []
   },
   {
    "id": "muzybpom-cg7sl1",
@@ -1141,7 +1186,8 @@
     "photos/2026-10-07/fl-seneca-cg7sl1-83.jpg",
     "photos/2026-10-07/fl-seneca-cg7sl1-84.jpg",
     "photos/2026-10-07/fl-seneca-cg7sl1-85.jpg"
-   ]
+   ],
+   "lead": []
   },
   {
    "id": "mv2hlvhf-6eyi6b",
@@ -1200,7 +1246,8 @@
     "photos/2026-10-08/pa-amish-6eyi6b-45.jpg",
     "photos/2026-10-08/pa-amish-6eyi6b-46.jpg",
     "photos/2026-10-08/pa-amish-6eyi6b-47.jpg"
-   ]
+   ],
+   "lead": []
   },
   {
    "id": "mv2h7shu-ot0lp5",
@@ -1270,6 +1317,9 @@
     "photos/2026-10-09/dc-capitol-ot0lp5-57.jpg",
     "photos/2026-10-09/dc-capitol-ot0lp5-58.jpg",
     "photos/2026-10-09/dc-capitol-ot0lp5-59.jpg"
+   ],
+   "lead": [
+    "photos/2026-10-09/00-lead-ot0lp5.jpg"
    ]
   },
   {
@@ -1280,7 +1330,10 @@
    "author": "הממליץ המקומי",
    "createdAt": "2026-10-11T14:42:40.577Z",
    "aiDraft": true,
-   "local": []
+   "local": [],
+   "lead": [
+    "photos/2026-10-10/00-lead-unepi0.jpg"
+   ]
   },
   {
    "id": "mvbjkig2-x1vidx",
@@ -1304,7 +1357,8 @@
     "photos/2026-10-10/ny-emptysky-x1vidx-10.jpg",
     "photos/2026-10-10/ny-emptysky-x1vidx-11.jpg",
     "photos/2026-10-10/ny-emptysky-x1vidx-12.jpg"
-   ]
+   ],
+   "lead": []
   },
   {
    "id": "mv54bu8c-cedqu8",
@@ -1314,7 +1368,10 @@
    "author": "הממליץ המקומי",
    "createdAt": "2026-10-12T10:37:44.268Z",
    "aiDraft": true,
-   "local": []
+   "local": [],
+   "lead": [
+    "photos/2026-10-11/00-lead-cedqu8.jpg"
+   ]
   },
   {
    "id": "mv56l4vi-0vkffc",
@@ -1371,7 +1428,8 @@
     "photos/2026-10-11/ny-nyse-0vkffc-43.jpg",
     "photos/2026-10-11/ny-nyse-0vkffc-44.jpg",
     "photos/2026-10-11/ny-nyse-0vkffc-45.jpg"
-   ]
+   ],
+   "lead": []
   },
   {
    "id": "mvb8xjj8-2ii1o6",
@@ -1385,7 +1443,8 @@
     "photos/2026-10-11/ny-empire-2ii1o6-00.jpg",
     "photos/2026-10-11/ny-empire-2ii1o6-01.jpg",
     "photos/2026-10-11/ny-empire-2ii1o6-02.jpg"
-   ]
+   ],
+   "lead": []
   },
   {
    "id": "mvbjnkqa-irqwgb",
@@ -1418,7 +1477,8 @@
     "photos/2026-10-11/ny-nyse-irqwgb-19.jpg",
     "photos/2026-10-11/ny-nyse-irqwgb-20.jpg",
     "photos/2026-10-11/ny-nyse-irqwgb-21.jpg"
-   ]
+   ],
+   "lead": []
   },
   {
    "id": "mv7j8cig-9byvcw",
@@ -1442,7 +1502,8 @@
     "photos/2026-10-12/ny-shopping12-9byvcw-10.jpg",
     "photos/2026-10-12/ny-shopping12-9byvcw-11.jpg",
     "photos/2026-10-12/ny-shopping12-9byvcw-12.jpg"
-   ]
+   ],
+   "lead": []
   },
   {
    "id": "mvbjppr7-ehi6fh",
@@ -1454,7 +1515,8 @@
    "aiDraft": true,
    "local": [
     "photos/2026-10-12/ny-shopping12-ehi6fh-00.jpg"
-   ]
+   ],
+   "lead": []
   },
   {
    "id": "mv7jasvs-alpi1j",
@@ -1482,7 +1544,8 @@
     "photos/2026-10-13/ny-crownheights-alpi1j-14.jpg",
     "photos/2026-10-13/ny-crownheights-alpi1j-15.jpg",
     "photos/2026-10-13/ny-crownheights-alpi1j-16.jpg"
-   ]
+   ],
+   "lead": []
   },
   {
    "id": "mvbjs2er-ek1xar",
@@ -1509,7 +1572,8 @@
     "photos/2026-10-13/ny-crownheights-ek1xar-13.jpg",
     "photos/2026-10-13/ny-crownheights-ek1xar-14.jpg",
     "photos/2026-10-13/ny-crownheights-ek1xar-15.jpg"
-   ]
+   ],
+   "lead": []
   },
   {
    "id": "mvbjxehs-m5kw1t",
@@ -1520,7 +1584,8 @@
    "createdAt": "2026-10-16T22:41:01.600Z",
    "aiDraft": true,
    "originalText": "ביקרנו בביתו של הרבי מלובביץ 770 קדושה הייתה במקום . שיתקיימו תפילותינו ומשם למרכז עם חנויות שטנות",
-   "local": []
+   "local": [],
+   "lead": []
   },
   {
    "id": "mvbk0fb0-xidycn",
@@ -1563,7 +1628,8 @@
     "photos/2026-10-14/ny-dumbo14-xidycn-30.jpg",
     "photos/2026-10-14/ny-dumbo14-xidycn-31.jpg",
     "photos/2026-10-14/ny-dumbo14-xidycn-32.jpg"
-   ]
+   ],
+   "lead": []
   },
   {
    "id": "mvbk2ni3-8v9vlq",
@@ -1574,7 +1640,8 @@
    "createdAt": "2026-10-16T22:45:06.555Z",
    "aiDraft": true,
    "originalText": "נסענו שוב לברוקלין לראות הגשרים באיזור הדמבו. ישבנו על שפת המים. תמיד חוזרים לקניות ובזבוזים",
-   "local": []
+   "local": [],
+   "lead": []
   },
   {
    "id": "mvbk6498-y87928",
@@ -1622,7 +1689,8 @@
     "photos/2026-10-15/ny-centralpark15-y87928-35.jpg",
     "photos/2026-10-15/ny-centralpark15-y87928-36.jpg",
     "photos/2026-10-15/ny-centralpark15-y87928-37.jpg"
-   ]
+   ],
+   "lead": []
   },
   {
    "id": "mvbkbbze-y5a40u",
@@ -1633,7 +1701,8 @@
    "createdAt": "2026-10-16T22:51:51.530Z",
    "aiDraft": true,
    "originalText": "התחלנו את היום בטיול כייפי בסנטרל פארק. בדרום מצאנו מסעדה איטלקית אמיתית שג'ק ניקולסון אכלנו בה. בהמלצת נופר נכנסנו לחנות מומה וקנינו אגרטל מיוחד.ושובסבב קניות ובלובי המלון אכלנו  והרמנו כוס לחיים מאושרים עם קוקטייל מיוחד במינו",
-   "local": []
+   "local": [],
+   "lead": []
   },
   {
    "id": "mvbkeq3k-avac6j",
@@ -1668,7 +1737,8 @@
     "photos/2026-10-16/ny-hudsonyards16-avac6j-22.jpg",
     "photos/2026-10-16/ny-hudsonyards16-avac6j-23.jpg",
     "photos/2026-10-16/ny-hudsonyards16-avac6j-24.jpg"
-   ]
+   ],
+   "lead": []
   },
   {
    "id": "mvbkigr6-1t1ehe",
@@ -1679,7 +1749,8 @@
    "createdAt": "2026-10-16T22:57:24.306Z",
    "aiDraft": true,
    "originalText": "התחלנו את הבוקר בבית קפה פרט אהובינו מלונדון משם המשכנו להדסון יארד . ראינו את המדרגות המיוחדות. הדובים. הגג שזז ומשם לחנות בניויורקבחנות לגדולים ויששש איתי קנה עוד זוג נעליים",
-   "local": []
+   "local": [],
+   "lead": []
   }
  ]
 }

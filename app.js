@@ -12,7 +12,8 @@
   album.memories.forEach((m) => { (memsByKey[m.date + "|" + m.siteId] ||= []).push(m); });
   const days = trip.days.map((d) => {
     const stops = d.sites.filter((s) => memsByKey[d.date + "|" + s.id] && s.lat && s.lng).map((s) => ({ site: s, mems: memsByKey[d.date + "|" + s.id] }));
-    const photos = stops.flatMap((st) => st.mems.flatMap((m) => m.local));
+    // תמונת הנושא של היום (מקובץ המדריך) ראשונה, אחריה התמונות של ההורים
+    const photos = [...stops.flatMap((st) => st.mems.flatMap((m) => m.lead || [])), ...stops.flatMap((st) => st.mems.flatMap((m) => m.local))];
     const texts = stops.flatMap((st) => st.mems.filter((m) => m.text && m.text.trim()).map((m) => ({ site: st.site.name, text: m.text.trim(), author: m.author })));
     return { ...d, stops, photos, texts };
   }).filter((d) => d.stops.length);
