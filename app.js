@@ -8,11 +8,11 @@
   // ---- data: סידור הזיכרונות לפי מקום
   const siteById = {}; const dayOfSite = {};
   trip.days.forEach((d) => d.sites.forEach((s) => { siteById[s.id] = s; dayOfSite[s.id] = d; }));
-  const memsBySite = {};
-  album.memories.forEach((m) => { (memsBySite[m.siteId] ||= []).push(m); });
-  // "תחנות": כל מקום שיש בו זיכרון, בסדר המסלול
+  // "תחנות": כל (יום, מקום) שיש בו זיכרון, בסדר המסלול — לפי התאריך של הזיכרון, לא של המקום בתוכנית
+  const memsByKey = {};
+  album.memories.forEach((m) => { (memsByKey[m.date + "|" + m.siteId] ||= []).push(m); });
   const stops = [];
-  trip.days.forEach((d) => d.sites.forEach((s) => { if (memsBySite[s.id] && s.lat && s.lng) stops.push({ day: d, site: s, mems: memsBySite[s.id] }); }));
+  trip.days.forEach((d) => d.sites.forEach((s) => { const mems = memsByKey[d.date + "|" + s.id]; if (mems && s.lat && s.lng) stops.push({ day: d, site: s, mems }); }));
   const photosTotal = album.memories.reduce((n, m) => n + m.local.length, 0);
   document.getElementById("stat").textContent = `${stops.length} מקומות · ${photosTotal.toLocaleString("he-IL")} תמונות · ${new Set(stops.map((s) => s.day.date)).size} ימים`;
 
