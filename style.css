@@ -90,3 +90,6 @@ button { font: inherit; cursor: pointer; }
   .leaflet-control-zoom { display: none; } /* בטלפון מצביטים; הכפתורים הסתירו את הכרטיס */
   .leaflet-control-attribution { font-size: 9px; }
 }
+
+/* ימי לבד בניו יורק: "יום 1 לבד" בקטן ליד מספר היום הרציף */
+.solo-no{font-size:.78em;font-weight:400;opacity:.8;white-space:nowrap}

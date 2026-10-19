@@ -5,7 +5,9 @@
   const [trip, album] = await Promise.all([fetch("trip.json?v=" + V).then((r) => r.json()), fetch("album.json?v=" + V).then((r) => r.json())]);
   const SOLO_START = "2026-10-12";
   const he = (d) => new Intl.DateTimeFormat("he-IL", { weekday: "long", day: "numeric", month: "long", timeZone: "UTC" }).format(new Date(d + "T12:00:00Z"));
-  const dayLabel = (d) => (d.date >= SOLO_START ? `לבד בניו יורק · יום ${+d.date.slice(8) - 11}` : `יום ${d.dayNo}`);
+  // ימים לבד בניו יורק: הספירה של הטיול ממשיכה (יום 21-27), ומתחת בקטן "יום 1 לבד" (כמו באלבום המודפס)
+  const soloNo = (d) => (d.date >= SOLO_START ? +d.date.slice(8) - 11 : 0);
+  const dayLabel = (d) => (soloNo(d) ? `לבד בניו יורק · יום ${d.dayNo} <small class="solo-no">יום ${soloNo(d)} לבד</small>` : `יום ${d.dayNo}`);
 
   // ---- data: לכל יום - התחנות (מקומות עם זיכרון), כל התמונות וכל המילים
   const memsByKey = {};
@@ -39,7 +41,7 @@
     const el = document.createElement("div");
     el.className = "day" + (di < 0 ? " empty" : ""); el.dataset.date = d.date;
     const meta = di < 0 ? "אין תמונות" : `${days[di].stops.length} מקומות · ${days[di].photos.length} תמונות`;
-    el.innerHTML = `<div class="day-no">${d.dayNo}<small>${+d.date.slice(8)}.${+d.date.slice(5, 7)}</small></div><div><div class="day-title">${d.title}</div><div class="day-meta">${he(d.date)} · ${meta}</div></div>`;
+    el.innerHTML = `<div class="day-no">${d.dayNo}<small>${+d.date.slice(8)}.${+d.date.slice(5, 7)}</small></div><div><div class="day-title">${d.title}</div><div class="day-meta">${soloNo(d) ? `לבד בניו יורק · יום ${soloNo(d)} לבד · ` : ""}${he(d.date)} · ${meta}</div></div>`;
     if (di >= 0) el.onclick = () => { openDay(di); daysEl.classList.remove("open"); };
     daysEl.appendChild(el);
   });
@@ -53,7 +55,7 @@
     document.querySelectorAll(`.pin[data-day="${di}"]`).forEach((p) => p.classList.add("active"));
     document.querySelectorAll(".day.active").forEach((x) => x.classList.remove("active"));
     const dayEl = daysEl.querySelector(`.day[data-date="${d.date}"]`); dayEl?.classList.add("active"); dayEl?.scrollIntoView({ block: "nearest" });
-    document.getElementById("cardDay").textContent = `${dayLabel(d)} · ${he(d.date)} · ${d.city}`;
+    document.getElementById("cardDay").innerHTML = `${dayLabel(d)} · ${he(d.date)} · ${d.city}`;
     document.getElementById("cardTitle").textContent = d.title;
     document.getElementById("cardSub").textContent = d.stops.map((st) => st.site.name).join(" · ") + ` · ${d.photos.length} תמונות`;
     lbList = d.photos;
